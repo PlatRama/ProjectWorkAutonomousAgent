@@ -1,0 +1,7 @@
+# Core — required for training, evaluation and experiments
+torch>=2.0.0          # Deep learning framework (Double DQN, GPU support)
+numpy>=1.24.0         # Numerical computing, replay buffer, LiDAR math
+
+# Visualisation
+matplotlib>=3.7.0     # Plot generation (plot_metrics.py)
+pygame>=2.4.0         # 2D environment rendering (evaluate.py --render)

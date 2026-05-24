@@ -1,0 +1,9 @@
+{
+  "exp_name": "ablation_dueling",
+  "total_episodes": 5600,
+  "last_n": 200,
+  "success_rate": 0.065,
+  "collision_rate": 0.47,
+  "avg_reward": -0.5517,
+  "avg_steps": 244.17
+}

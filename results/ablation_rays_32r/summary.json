@@ -1,0 +1,9 @@
+{
+  "exp_name": "ablation_rays_32r",
+  "total_episodes": 6200,
+  "last_n": 200,
+  "success_rate": 0.86,
+  "collision_rate": 0.125,
+  "avg_reward": 8.3064,
+  "avg_steps": 57.88
+}

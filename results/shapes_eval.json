@@ -1,0 +1,70 @@
+{
+  "checkpoint": "checkpoints\\ablation_rays_16r\\best.pt",
+  "n_episodes": 200,
+  "seed": 42,
+  "n_rays": 16,
+  "n_obstacles": 8,
+  "shapes": {
+    "circle": {
+      "label": "circle",
+      "n_episodes": 200,
+      "seed": 42,
+      "n_rays": 16,
+      "n_obstacles": 8,
+      "lidar_noise": 0.0,
+      "step_size": 8.0,
+      "success_rate": 0.93,
+      "collision_rate": 0.035,
+      "timeout_rate": 0.035,
+      "avg_reward": 9.1064,
+      "std_reward": 2.8151,
+      "avg_steps": 54.67,
+      "std_steps": 67.77,
+      "shape": "circle"
+    },
+    "rect": {
+      "shape": "rect",
+      "n_episodes": 200,
+      "success_rate": 0.78,
+      "collision_rate": 0.115,
+      "timeout_rate": 0.105,
+      "avg_reward": 7.4507,
+      "std_reward": 4.5674,
+      "avg_steps": 79.62,
+      "std_steps": 110.82
+    },
+    "rotated_rect": {
+      "shape": "rotated_rect",
+      "n_episodes": 200,
+      "success_rate": 0.82,
+      "collision_rate": 0.085,
+      "timeout_rate": 0.095,
+      "avg_reward": 7.8909,
+      "std_reward": 4.2275,
+      "avg_steps": 76.31,
+      "std_steps": 106.29
+    },
+    "triangle": {
+      "shape": "triangle",
+      "n_episodes": 200,
+      "success_rate": 0.755,
+      "collision_rate": 0.13,
+      "timeout_rate": 0.115,
+      "avg_reward": 7.1714,
+      "std_reward": 4.7384,
+      "avg_steps": 84.37,
+      "std_steps": 115.06
+    },
+    "l_shape": {
+      "shape": "l_shape",
+      "n_episodes": 200,
+      "success_rate": 0.72,
+      "collision_rate": 0.065,
+      "timeout_rate": 0.215,
+      "avg_reward": 6.7753,
+      "std_reward": 4.9582,
+      "avg_steps": 121.31,
+      "std_steps": 147.45
+    }
+  }
+}

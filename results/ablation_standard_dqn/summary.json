@@ -1,0 +1,9 @@
+{
+  "exp_name": "ablation_standard_dqn",
+  "total_episodes": 5600,
+  "last_n": 200,
+  "success_rate": 0.93,
+  "collision_rate": 0.07,
+  "avg_reward": 9.0979,
+  "avg_steps": 45.88
+}
